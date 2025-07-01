@@ -1,0 +1,111 @@
+body {
+  background-color: #FFB6C1; /* світло-сірий */                   
+} 
+
+
+.h1{
+  position: absolute;
+  color: #FFD700;
+  text-shadow: 1px 4px 5px #5c5052;   
+  top: -100%; /* сховати над контейнером */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  opacity: 0;
+  animation: slideFromTop 2s ease-out forwards;
+} 
+
+@keyframes slideFromTop {
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@keyframes slideFromTop {
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/*-----------------------------------------------------------------------------------------------------------*/ 
+
+
+.pr{
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.text2{
+  font-size: 30px;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.foto {
+  display: flex;
+  gap: 30px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */   
+}
+
+.foto img{
+  width: 110px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/ 
+  width: 280px;
+  height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+  /* 0 — зміщення по горизонталі (немає),
+
+4px — зміщення по вертикалі вниз,
+
+8px — розмиття,
+
+rgba(0, 0, 0, 0.2) — колір тіні (напівпрозорий чорний).*/
+
+  transition: transform 0.7s ease; /*анімація, щоб ефект hover був плавним протягом 0.3 секунди.*/
+}
+
+.foto img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+.end {
+  display: flex;
+  gap: 40px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */
+}
+
+.end img {
+
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; 
+  height: 220px;
+  width: auto;
+                                                             
+  max-width: none;                                           
+  max-height: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+
+  transition: transform 0.7s ease;
+}
+
+.end img:hover {
+  transform: scale(1.1); 
+}

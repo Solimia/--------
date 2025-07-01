@@ -1,0 +1,45 @@
+body {
+  background-color: #dbcfd1; /* світло-сірий */                   
+} 
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.h1{
+    
+    font-size: 48px;
+    letter-spacing: 30px;
+    color: azure;
+    text-shadow: 1px 4px 5px #ba8991;
+}
+
+.sol3 {
+  display: flex;
+  gap: 30px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */   
+}
+
+.sol3 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 200px;
+    width: auto;
+                                                             
+  max-width: none;                                           
+  max-height: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.sol3 img:hover{
+    transform: scale(1.1);
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}

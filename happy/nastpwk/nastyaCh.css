@@ -1,0 +1,78 @@
+body {
+  background-color: #edd0ef; /* світло-сірий */                   
+} 
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.foto1 {
+  display: flex;
+  gap: 40px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */
+}
+
+.foto1 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 220px;
+    width: auto;
+                                                             
+  max-width: none;                                           
+  max-height: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto1 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+/*_________________________________________________________________________________________________________________________*/
+
+
+
+.gif{
+      width: 200px;                                           
+  height: auto;
+}
+
+.tex{
+  overflow: hidden;
+  font-size: 30px;
+  word-spacing: 20px; 
+
+}
+
+/*_______________________________________________Гівка і текст________________________________________________________________*/
+
+.tex{
+    display: flex;
+  align-items: center; /* вертикальне вирівнювання */
+  gap: 15px;            /* відстань між гіфкою і текстом */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tex img{
+    width: 150px;   /* або твій розмір */
+  height: auto;
+}
+
+.tex p{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  font-size: 30px;
+  color: #000000;
+}
+
+/*_________________________________________________________________________________________________________________________*/
+
+.end{
+  font-size: 30px;
+  color: #e20000;
+  text-align: center;
+}

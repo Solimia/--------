@@ -1,0 +1,243 @@
+body {
+  background-color: #fdfaac; /* світло-сірий */                   
+} 
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.h1{
+  color: #e20000;
+  text-shadow: 1px 4px 5px #5c5052; 
+  text-align: center;
+  font-size: 30px;
+}
+
+.foto1 {
+  display: flex;
+  gap: 40px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */
+}
+
+.foto1 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 220px;
+    width: auto;
+                                                             
+  max-width: none;                                           
+  max-height: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto1 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+.foto2 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 240px;   /*розмір картинки*/
+  width: auto;     
+  float: left;                                                       
+  max-width: none;                                           
+  max-height: none;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto2 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+.foto2{
+  font-size: 20px;
+}
+
+.tex{
+  overflow: hidden;
+  font-size: 30px;
+  word-spacing: 20px;           /*відступи слів один від одного*/
+} 
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.v2{
+  display: flex;
+  position: absolute;      /* справа */
+  right: 0;
+}
+
+.v2 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/ 
+  width: 400px;
+  margin-right: 40px;  /*відстань між стінкою та картинкою*/
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.7s ease;
+}
+
+.v2 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.foto3 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 270px;   /*розмір картинки*/
+  width: auto;     
+  float: left;                                                       
+  max-width: none;                                           
+  max-height: none;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto3 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+.tex1{
+  overflow: hidden;
+  font-size: 30px;
+  word-spacing: 30px; 
+
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.foto4 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 320px;   /*розмір картинки*/
+  width: auto;     
+  float: left;                                                       
+  max-width: none;                                           
+  max-height: none;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+  position: absolute;      /* справа */
+  right: 0;
+   margin-right: 50px; 
+}
+
+.foto4 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+.text4{
+  overflow: hidden;
+  font-size: 30px;
+  word-spacing: 20px; 
+  overflow: hidden;
+  
+}
+
+
+.span2{
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.foto5 img{
+    width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 320px;   /*розмір картинки*/
+  width: auto;     
+  float: left;                                                       
+  max-width: none;                                           
+  max-height: none;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+  position: absolute;      /* справа */
+  right: 0;
+   margin-right: 50px; 
+}
+.foto5 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+.text5{
+    overflow: hidden;
+  font-size: 30px;
+  word-spacing: 20px; 
+  overflow: hidden;
+  
+}
+
+/*_________________________________________________________________________________________________________________________*/
+
+.foto6  {
+  display: flex;
+  gap: 40px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */
+}
+
+.foto6 img {
+
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 300px;
+  width: auto;
+                                                             
+  max-width: none;                                           
+  max-height: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto6 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+/*_________________________________________________________________________________________________________________________*/
+
+
+.foto7  {
+  display: flex;
+  gap: 40px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */
+}
+
+.foto7 img {
+
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 300px;
+  width: auto;
+                                                             
+  max-width: none;                                           
+  max-height: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto7 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
