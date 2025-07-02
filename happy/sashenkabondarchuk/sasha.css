@@ -29,3 +29,11 @@
 .foto1 img:hover {
   transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
 }
+
+.text {
+  font-size: 30px;
+  text-align: center;
+  color: #1a0202;
+  margin-top: 20px;
+  text-shadow: none 1px 4px 5px #5c5052;
+}
