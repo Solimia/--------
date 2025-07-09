@@ -51,3 +51,105 @@ body {
   position: relative;
   min-height: 100vh;
 }
+
+/*_________________________________gif_______________________________________________*/
+
+.gif{
+      width: 200px;                                           
+  height: auto;
+}
+
+.tex{
+  overflow: hidden;
+  font-size: 30px;
+  word-spacing: 20px; 
+
+}
+.tex{
+    display: flex;
+  align-items: center; /* вертикальне вирівнювання */
+  gap: 15px;            /* відстань між гіфкою і текстом */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tex img{
+    width: 150px;   /* або твій розмір */
+  height: auto;
+}
+
+.tex p{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  font-size: 30px;
+  color: #000000;
+}
+
+.h1{
+  color: #000000;
+  text-shadow: 1px 4px 5px #5c5052; 
+  text-align: center;
+  font-size: 30px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.foto3 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 270px;   /*розмір картинки*/
+  width: auto;     
+  float: left;                                                       
+  max-width: none;                                           
+  max-height: none;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto3 img:hover {
+  transform: scale(1.1); /*зображення збільшується на 10% (масштабується).*/
+}
+
+.tex1{
+  overflow: hidden;
+  font-size: 30px;
+  word-spacing: 30px; 
+
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.h2{
+  color: #08060600;
+  text-shadow: 1px 2px 0px #1b090c; 
+  text-align: center;
+  font-size: 30px;
+}
+
+.foto1 {
+  display: flex;
+  gap: 40px;  /* відстань між картинками*/
+  justify-content: center; /* центрує картинки */
+}
+
+.foto1 img{
+  width: 130px; /* фіксована ширина картинки.*/
+  height: auto; /*автоматична висота, щоб зберегти пропорції зображення.*/
+  border-radius: 10px; /*заокруглення кутів картинки на 10 пікселів.*/
+  height: 220px;
+    width: auto;
+                                                             
+  max-width: none;                                           
+  max-height: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*додає тінь навколо картинки:*/
+
+
+  transition: transform 0.7s ease;
+}
+
+.foto1 img:hover {
+  transform: scale(1.1);
+}
